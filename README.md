@@ -59,4 +59,4 @@ Feel free to check the [issues page](../../issues/).
 
 ## License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./License) licensed.
