@@ -23,6 +23,7 @@ BEGIN;
 UPDATE animals SET species = 'unspecified';
 TABLE animals;
 ROLLBACK;
+TABLE animals;
 -- Update the animals table by setting the species column to digimon for all animals that have a name ending in mon.
 -- Update the animals table by setting the species column to pokemon for all animals that don't have species already set.
 -- Commit the transaction.
@@ -51,6 +52,7 @@ ROLLBACK TO sp1;
 UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
 TABLE animals;
 COMMIT;
+TABLE animals;
 -- How many animals are there?
 SELECT COUNT(*) FROM animals;
 -- How many animals have never tried to escape?
