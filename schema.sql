@@ -5,6 +5,10 @@ CREATE TABLE animals(
     name VARCHAR(50),
     date_of_birth DATE,
     escape_attempts INT,
-    neutered boolean,
+    neutered BIT,
     weight_kg FLOAT,
 );
+
+-- adding species in the table 
+ALTER TABLE animals
+ADD species VARCHAR(50);
